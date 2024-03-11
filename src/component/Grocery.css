@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8fafc;
+}
+.main{
+    width: 100vw;
+}
+.h2_plus_some_data{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 7rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 380;
+    font-size: 28px;
+}
+.input_with_btn{
+    margin-top: 1.5rem;
+}
+.input_with_btn input{
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    border: 0.01px solid grey;
+    height: 1.7rem;
+}
+.input_with_btn button{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(187, 255, 0);
+    margin-left: 1rem;
+    border: 1px solid rgb(241, 239, 239);
+}
+.input_with_btn button:hover{
+    font-size: 14.5px;
+    background-color: rgb(172, 226, 11);
+}
+.all_data_div{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.All_data_fush_btn{
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgb(241, 239, 239);
+    background-color: red;
+}
+.All_data_fush_btn:hover{
+    background-color: rgb(220, 8, 8);
+    font-size: 14.5px;
+}
